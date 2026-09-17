@@ -8,19 +8,23 @@
 | --- | --- | --- |
 | 排障 | MIT | [mattpocock/skills](https://github.com/mattpocock/skills) · Copyright (c) 2026 Matt Pocock |
 | 测试驱动 | MIT | [mattpocock/skills](https://github.com/mattpocock/skills) · Copyright (c) 2026 Matt Pocock |
+| React 优化 | MIT | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · SKILL.md 标注 license: MIT |
 | 图表 | MIT | [lvy010/clouds](https://github.com/lvy010/clouds) · Copyright (c) 2026 clouds contributors |
 | 人话 | MIT | [lvy010/clouds](https://github.com/lvy010/clouds) · Copyright (c) 2026 clouds contributors |
 | 前端设计 | Apache License 2.0 | [anthropics/skills](https://github.com/anthropics/skills) · LICENSE.txt 随附于目录内 |
 | 直给回答 | MIT | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) · LICENSE 见上游仓库 |
+| 文档转写 | MIT（工具） | 封装 [microsoft/markitdown](https://github.com/microsoft/markitdown) CLI |
 | 刷题教练 | MIT | buleboy 自研 |
 | 页面上线 | MIT | buleboy 自研 |
 | 主页美化 | MIT | buleboy 自研 |
 | 简历制作 | MIT | buleboy 自研 |
 | 项目拆解 | MIT | buleboy 自研 |
+| 知识卡片 | MIT | buleboy 自研 |
+| 安全检查 | MIT | buleboy 自研 |
 
 ## MIT 统一条款
 
-适用于：排障、测试驱动、图表、人话、直给回答（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
+适用于：排障、测试驱动、React 优化、图表、人话、直给回答（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
 
 ```text
 MIT License

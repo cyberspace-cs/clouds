@@ -20,6 +20,7 @@
 | --- | --- | --- |
 | [排障](./排障/) | 硬 bug 诊断：先建反馈回路再定位，二分/属性/差分等 10 种循环构建法 | mattpocock/skills（MIT） |
 | [测试驱动](./测试驱动/) | TDD 红绿循环：好的测试长什么样、测试缝、反模式 | mattpocock/skills（MIT） |
+| [React 优化](./React优化/) | React/Next.js 性能优化：40+ 条规则分 8 类（waterfall/包体积/重渲染…） | vercel-labs/agent-skills |
 | [刷题教练](./刷题教练/) | LeetCode 刷题：定制路线、逐题精讲、遗忘曲线复习 | 自研（buleboy） |
 | [页面上线](./页面上线/) | 一键部署 GitHub Pages：构建探测 + workflow + pnpm 坑 + 白屏排障 | 自研（buleboy） |
 
@@ -30,8 +31,15 @@
 | [主页美化](./主页美化/) | 生成 liyupi 风格的 GitHub 个人主页 README | 自研（buleboy） |
 | [简历制作](./简历制作/) | 制作可部署的个人简历/作品集网页 | 自研（buleboy） |
 | [项目拆解](./项目拆解/) | 深度拆解开源项目，产出中文学习指南 | 自研（buleboy） |
+| [知识卡片](./知识卡片/) | 文章/本地文档 → 5~8 张知识卡片（标题/核心知识/解释/自测） | 自研（buleboy） |
 | [图表](./图表/) | 根据数据生成准确、可访问的 HTML 图表与报告 | lvy010/clouds（MIT） |
 | [人话](./人话/) | 保留事实与观点，把生硬中文改得自然易读 | lvy010/clouds（MIT） |
+
+### 📄 文档处理
+
+| Skill | 一句话说明 | 来源 |
+| --- | --- | --- |
+| [文档转写](./文档转写/) | PDF/Word/Excel/PPT → 干净 Markdown，基于 MarkItDown | microsoft/markitdown（MIT） |
 
 ### 🎨 UI 与输出风格
 
@@ -39,6 +47,12 @@
 | --- | --- | --- |
 | [前端设计](./前端设计/) | 有辨识度的前端视觉设计：美学方向、字体、布局，拒绝模板感 | anthropics/skills（Apache 2.0） |
 | [直给回答](./直给回答/) | ADHD 友好输出：先给行动、编号步骤、每轮重述、抑制废话 | ayghri/i-have-adhd（MIT） |
+
+### 🔒 安全
+
+| Skill | 一句话说明 | 来源 |
+| --- | --- | --- |
+| [安全检查](./安全检查/) | 发布前检查：Token/隐私/绝对路径/临时文件/测试垃圾，先报告不执行 Git | 自研（buleboy） |
 
 ## 🧩 目录结构
 
@@ -48,15 +62,19 @@ clouds/
 ├── LICENSES.md        # 各 Skill 许可证与来源
 ├── 排障/SKILL.md       # 每个中文目录 = 一个 Skill
 ├── 测试驱动/SKILL.md
+├── React优化/SKILL.md + rules/（72 条规则）
 ├── 刷题教练/SKILL.md
 ├── 页面上线/SKILL.md
 ├── 主页美化/SKILL.md
 ├── 简历制作/SKILL.md
 ├── 项目拆解/SKILL.md
+├── 知识卡片/SKILL.md
 ├── 图表/SKILL.md
 ├── 人话/SKILL.md
+├── 文档转写/SKILL.md
 ├── 前端设计/SKILL.md   # 含 LICENSE.txt（Apache 2.0）
-└── 直给回答/SKILL.md
+├── 直给回答/SKILL.md
+└── 安全检查/SKILL.md
 ```
 
 ## 🛠️ Skill 规范
@@ -69,7 +87,7 @@ clouds/
 
 ## ⭐ 来源与致谢
 
-- 4 个 Skill 直接复用 GitHub 高星项目（MIT / Apache 2.0）：mattpocock/skills、anthropics/skills、lvy010/clouds、ayghri/i-have-adhd，均保留原许可证与版权声明，详见 [LICENSES.md](./LICENSES.md)。
-- 5 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页）。
+- 7 个 Skill 直接复用/基于 GitHub 高星项目：mattpocock/skills、vercel-labs/agent-skills、anthropics/skills、lvy010/clouds、ayghri/i-have-adhd、microsoft/markitdown，均保留原许可证与版权声明，详见 [LICENSES.md](./LICENSES.md)。
+- 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。
