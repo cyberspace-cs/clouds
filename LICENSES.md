@@ -15,6 +15,10 @@
 | i-have-adhd | MIT | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) ⭐47k · LICENSE 见上游仓库 |
 | code-review-and-quality | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
 | code-simplification | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
+| security-and-hardening | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
+| performance-optimization | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
+| git-workflow-and-versioning | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
+| documentation-and-adrs | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
 | humanizer | MIT | [blader/humanizer](https://github.com/blader/humanizer) ⭐49k · LICENSE 随附于目录内 |
 | no-ai-slop | MIT | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) ⭐10k · LICENSE 见上游仓库 |
 | verification-before-completion | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
@@ -31,7 +35,7 @@
 
 ## MIT 统一条款
 
-适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer、no-ai-slop、verification-before-completion、brainstorming、writing-skills（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
+适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、security-and-hardening、performance-optimization、git-workflow-and-versioning、documentation-and-adrs、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer、no-ai-slop、verification-before-completion、brainstorming、writing-skills（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
 
 ```text
 MIT License
