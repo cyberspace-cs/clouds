@@ -25,6 +25,9 @@
 | [code-review-and-quality](./code-review-and-quality/) | 五轴代码评审：正确性/可读性/架构/安全/性能 + 质量门 · Five-axis code review | addyosmani/agent-skills ⭐96k |
 | [code-simplification](./code-simplification/) | 代码简化：删冗余、降复杂度、保持行为不变 · Simplify without changing behavior | addyosmani/agent-skills ⭐96k |
 | [vercel-react-best-practices](./vercel-react-best-practices/) | React/Next.js 性能优化：40+ 规则 8 大类（waterfall/包体积/重渲染）· Performance guidelines | vercel-labs/agent-skills ⭐31k |
+| [verification-before-completion](./verification-before-completion/) | 完成前验证：无新鲜验证证据不得声称完成 · Evidence before claims | obra/superpowers ⭐288k |
+| [brainstorming](./brainstorming/) | 创意先构思再动手：分类需求、设计方案、获准后才实现 · Design before implementation | obra/superpowers ⭐288k |
+| [writing-skills](./writing-skills/) | 写 Skill 的 Skill：TDD 式创作、子代理压测、验证后部署 · Create & test skills | obra/superpowers ⭐288k |
 | [leetcode-coach](./leetcode-coach/) | LeetCode 刷题：定制路线、逐题精讲、遗忘曲线复习 · LeetCode learning coach | 自研 buleboy |
 | [pages-deploy](./pages-deploy/) | 一键部署 GitHub Pages：构建探测 + workflow + pnpm 坑 + 白屏排障 · Deploy to Pages | 自研 buleboy |
 
@@ -52,6 +55,7 @@
 | [frontend-design](./frontend-design/) | 有辨识度的前端视觉设计，拒绝模板感 · Distinctive frontend design | anthropics/skills ⭐177k |
 | [i-have-adhd](./i-have-adhd/) | ADHD 友好输出：先给行动、编号步骤、抑制废话 · Action-first output | ayghri/i-have-adhd ⭐47k |
 | [humanizer](./humanizer/) | 去除 AI 写作痕迹：改写 AI 味文本、保留原意 · Remove AI writing tells | blader/humanizer ⭐49k |
+| [no-ai-slop](./no-ai-slop/) | 检测或编辑 AI 味：保留个人文风、最小有效编辑 · Edit or detect AI slop | petergyang/no-ai-slop ⭐10k |
 
 ### 🔒 安全 Security
 
@@ -70,6 +74,9 @@ clouds/
 ├── code-review-and-quality/SKILL.md
 ├── code-simplification/SKILL.md
 ├── vercel-react-best-practices/SKILL.md + rules/（72 条规则）
+├── verification-before-completion/SKILL.md
+├── brainstorming/SKILL.md
+├── writing-skills/SKILL.md + examples/ + references/
 ├── leetcode-coach/SKILL.md
 ├── pages-deploy/SKILL.md
 ├── github-profile-beautify/SKILL.md
@@ -82,6 +89,7 @@ clouds/
 ├── frontend-design/SKILL.md    # 含 LICENSE.txt（Apache 2.0）
 ├── i-have-adhd/SKILL.md
 ├── humanizer/SKILL.md + LICENSE
+├── no-ai-slop/SKILL.md
 └── pre-publish-security-check/SKILL.md
 ```
 
@@ -97,6 +105,7 @@ clouds/
 
 | 来源仓库 | Star | 许可 | 采用 Skill |
 | --- | --- | --- | --- |
+| [obra/superpowers](https://github.com/obra/superpowers) | 288k | MIT | verification-before-completion, brainstorming, writing-skills |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 264k | MIT | diagnosing-bugs, tdd |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 185k | MIT | doc-to-markdown（封装 CLI） |
 | [anthropics/skills](https://github.com/anthropics/skills) | 177k | Apache 2.0 | frontend-design |
@@ -104,9 +113,10 @@ clouds/
 | [blader/humanizer](https://github.com/blader/humanizer) | 49k | MIT | humanizer |
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 47k | MIT | i-have-adhd |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 31k | MIT（SKILL.md 标注） | vercel-react-best-practices |
+| [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | 10k | MIT | no-ai-slop |
 | [lvy010/clouds](https://github.com/lvy010/clouds) | 8 | MIT（各 skill 标注） | charts, prose |
 
-- 10 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
+- 13 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
 - 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。

@@ -16,6 +16,10 @@
 | code-review-and-quality | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
 | code-simplification | MIT | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐96k · LICENSE 见上游仓库 |
 | humanizer | MIT | [blader/humanizer](https://github.com/blader/humanizer) ⭐49k · LICENSE 随附于目录内 |
+| no-ai-slop | MIT | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) ⭐10k · LICENSE 见上游仓库 |
+| verification-before-completion | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
+| brainstorming | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
+| writing-skills | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
 | doc-to-markdown | MIT（工具 Tool） | 封装 [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐185k CLI |
 | leetcode-coach | MIT | buleboy 自研 |
 | pages-deploy | MIT | buleboy 自研 |
@@ -27,7 +31,7 @@
 
 ## MIT 统一条款
 
-适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
+适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer、no-ai-slop、verification-before-completion、brainstorming、writing-skills（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
 
 ```text
 MIT License
