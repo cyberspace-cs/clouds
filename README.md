@@ -1,4 +1,4 @@
-# ☁️ buleboy 的 clouds —— 我的专属 Skill 集合
+# ☁️ buleboy 的 clouds —— 专属 Skill 集合
 
 > **Everything is Skill-Composable.** 把常用工作流打包成可随时调用的 Skill，配合豆包工作任务模式 / AI Agent 一键安装即用。
 
@@ -14,28 +14,49 @@
 
 ## 📦 Skill 列表
 
-| 方向 | Skill | 一句话说明 |
+### 🖥️ 编程
+
+| Skill | 一句话说明 | 来源 |
 | --- | --- | --- |
-| 🖥️ 编程 | [代码评审](./代码评审/) | 五维度代码审查：正确性 / 安全 / 性能 / 可读性 / 架构，输出分级修改建议 |
-| 🖥️ 编程 | [刷题教练](./刷题教练/) | LeetCode / 算法刷题：定制路线、逐题精讲、遗忘曲线复习 |
-| 🖥️ 编程 | [页面上线](./页面上线/) | 一键把项目部署到 GitHub Pages：构建探测 + workflow + 白屏排障 |
-| 📄 展示 | [主页美化](./主页美化/) | 生成 liyupi 风格的 GitHub 个人主页 README（徽章/表格/置顶项目） |
-| 📄 展示 | [简历制作](./简历制作/) | 制作可部署的个人简历/作品集网页（单页 HTML 或 React 工程） |
-| 📄 展示 | [项目拆解](./项目拆解/) | 深度拆解开源项目，产出中文学习指南（名片/创意/架构/学习路线） |
-| 🎨 UI 设计 | [界面设计](./界面设计/) | 前端界面设计落地规范：设计原则 / 设计系统 / 组件规范 / 交付检查 |
+| [排障](./排障/) | 硬 bug 诊断：先建反馈回路再定位，二分/属性/差分等 10 种循环构建法 | mattpocock/skills（MIT） |
+| [测试驱动](./测试驱动/) | TDD 红绿循环：好的测试长什么样、测试缝、反模式 | mattpocock/skills（MIT） |
+| [刷题教练](./刷题教练/) | LeetCode 刷题：定制路线、逐题精讲、遗忘曲线复习 | 自研（buleboy） |
+| [页面上线](./页面上线/) | 一键部署 GitHub Pages：构建探测 + workflow + pnpm 坑 + 白屏排障 | 自研（buleboy） |
+
+### 📄 展示与内容
+
+| Skill | 一句话说明 | 来源 |
+| --- | --- | --- |
+| [主页美化](./主页美化/) | 生成 liyupi 风格的 GitHub 个人主页 README | 自研（buleboy） |
+| [简历制作](./简历制作/) | 制作可部署的个人简历/作品集网页 | 自研（buleboy） |
+| [项目拆解](./项目拆解/) | 深度拆解开源项目，产出中文学习指南 | 自研（buleboy） |
+| [图表](./图表/) | 根据数据生成准确、可访问的 HTML 图表与报告 | lvy010/clouds（MIT） |
+| [人话](./人话/) | 保留事实与观点，把生硬中文改得自然易读 | lvy010/clouds（MIT） |
+
+### 🎨 UI 与输出风格
+
+| Skill | 一句话说明 | 来源 |
+| --- | --- | --- |
+| [前端设计](./前端设计/) | 有辨识度的前端视觉设计：美学方向、字体、布局，拒绝模板感 | anthropics/skills（Apache 2.0） |
+| [直给回答](./直给回答/) | ADHD 友好输出：先给行动、编号步骤、每轮重述、抑制废话 | ayghri/i-have-adhd（MIT） |
 
 ## 🧩 目录结构
 
 ```text
 clouds/
 ├── README.md          # 本说明
-├── 代码评审/SKILL.md   # 每个中文目录 = 一个 Skill
+├── LICENSES.md        # 各 Skill 许可证与来源
+├── 排障/SKILL.md       # 每个中文目录 = 一个 Skill
+├── 测试驱动/SKILL.md
 ├── 刷题教练/SKILL.md
 ├── 页面上线/SKILL.md
 ├── 主页美化/SKILL.md
 ├── 简历制作/SKILL.md
 ├── 项目拆解/SKILL.md
-└── 界面设计/SKILL.md
+├── 图表/SKILL.md
+├── 人话/SKILL.md
+├── 前端设计/SKILL.md   # 含 LICENSE.txt（Apache 2.0）
+└── 直给回答/SKILL.md
 ```
 
 ## 🛠️ Skill 规范
@@ -46,8 +67,9 @@ clouds/
 - 可选 `scripts/`（可执行脚本）、`references/`（参考文档）、`assets/`（模板资产）
 - 描述清晰，Agent 读到描述即可判断何时调用
 
-## ⭐ 说在后面
+## ⭐ 来源与致谢
 
-这套 Skill 全部来自真实项目实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页），不是通用模板——用的时候你会感受到"有人踩过坑"的细节。
+- 4 个 Skill 直接复用 GitHub 高星项目（MIT / Apache 2.0）：mattpocock/skills、anthropics/skills、lvy010/clouds、ayghri/i-have-adhd，均保留原许可证与版权声明，详见 [LICENSES.md](./LICENSES.md)。
+- 5 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。

@@ -1,27 +1,33 @@
 ---
 name: pages-deploy
-description: 把本地 Web 项目部署上线到 GitHub Pages，含构建方式探测、GitHub Actions workflow 编写、Pages 启用与线上验证全流程。当用户要求"部署到 GitHub Pages / 上线 / 发布网页 / 给我的项目加个在线访问 / 让仓库变成网站 / pages 部署不了怎么办"时使用。支持 npm、pnpm workspace、Jekyll、纯静态四种构建类型，包含白屏排障。
+description: '中文名：页面上线。把本地 Web 项目部署到 GitHub Pages，含构建方式探测、GitHub Actions workflow 编写、Pages 启用、线上验证与白屏排障全流程。Use when: 页面上线、部署到 GitHub Pages、发布网页、给项目加在线访问、让仓库变成网站、pages 部署不了、构建失败 EUNSUPPORTEDPROTOCOL。'
 ---
 
 # 页面上线
 
 ## 目标
 
-把一个仓库里的前端项目稳定部署到 `https://<owner>.github.io/<repo>/`，并线上验证可用。
+把一个仓库里的前端项目稳定部署到 `https://<owner>.github.io/<repo>/`，并线上验证真实可访问。支持 npm、pnpm workspace、Jekyll、纯静态四种构建类型。
 
-## 核心流程
+## 输入
 
-### 1. 探测项目构建方式（先摸清再动手）
+- 必需：仓库名（owner/repo）。
+- 可选：目标分支、构建命令、产物目录、已知异常。
+
+## 工作流
+
+### 1. 探测构建方式（先摸清再动手，禁止假设）
 
 | 仓库特征 | 构建方式 |
 |---|---|
 | 有 `package-lock.json` + Vite/React | npm：`npm ci` → `npm run build` |
-| 有 `pnpm-lock.yaml` 或依赖含 `workspace:^` | pnpm workspace（见下） |
-| 有 `.github/workflows/deploy.yml`（Jekyll Pages） | 直接用仓库自带 workflow |
-| 纯 HTML/CSS/JS 无构建 | 静态上传 `main` 分支 |
-| `.github/workflows/pages.yml` 已存在 | 直接启用 + dispatch |
+| 有 `pnpm-lock.yaml` 或依赖含 `workspace:^` | pnpm workspace（见 2） |
+| 有 `.github/workflows/deploy.yml`（Jekyll Pages） | 直接复用仓库自带 workflow |
+| 纯 HTML/CSS/JS 无构建 | 静态上传 main 分支 |
+| 已有 `.github/workflows/pages.yml` | 直接启用 + dispatch |
 
 **pnpm workspace 关键坑**：子包依赖 `workspace:^` 协议时 `npm ci` 必失败（EUNSUPPORTEDPROTOCOL）。必须：
+
 ```bash
 pnpm install --frozen-lockfile
 pnpm --filter @<scope>/shared build   # 先构建被依赖包
@@ -95,10 +101,11 @@ curl -X POST -H "Authorization: Bearer $TOKEN" \
 | 页面白屏、控制台 404 | 资源绝对路径 / base 未配置 | 加 `--base=/<repo>/`，改相对路径 |
 | 引用的本地大文件不存在 | 仓库未包含该资源 | 下载官方文件放到 `public/` 再提交 |
 | 部署成功但 404 | Pages 未启用或 build_type 不对 | 确认 `build_type: workflow` 且 workflow 在默认分支 |
+| 构建成功但页面空白 | 依赖缺失或运行时错误 | 查 Actions 日志 + 浏览器控制台 |
 
 ## 检查清单
 
-- [ ] 已确认构建方式与产物目录
+- [ ] 已确认构建方式与产物目录（不靠猜）
 - [ ] workflow 推送后触发成功（查 actions/runs）
 - [ ] 页面 200 可访问，核心资源（JS/CSS/大文件）非 404
 - [ ] 浏览器打开验证真实渲染，不是只看构建成功
