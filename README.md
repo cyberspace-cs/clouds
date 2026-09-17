@@ -1,80 +1,82 @@
-# ☁️ buleboy 的 clouds —— 专属 Skill 集合
+# ☁️ buleboy's clouds — Personal Skill Collection
 
-> **Everything is Skill-Composable.** 把常用工作流打包成可随时调用的 Skill，配合豆包工作任务模式 / AI Agent 一键安装即用。
+> **Everything is Skill-Composable.** 常用工作流打包成可随时调用的 Skill，配合豆包工作任务模式 / AI Agent 一键安装即用。
 
-每个中文目录就是一个独立的 Skill（`SKILL.md` 含触发描述与完整流程），按需调用，随取随用。
+每个英文目录就是一个独立的 Skill（`SKILL.md` 含触发描述与完整流程），按需调用，随取随用。
 
 ## 🚀 快速开始
 
 在豆包（工作任务模式）或任意支持 Skills 的 Agent 中直接说：
 
-> 帮我安装 GitHub 上 cyberspace-cs 的 clouds，直接用「xxx Skill」帮我处理 …
+> 帮我安装 GitHub 上 cyberspace-cs 的 clouds，直接用「knowledge-cards Skill」帮我处理 …
 
 或者按目录读取对应 Skill 的 `SKILL.md` 即可获得完整工作流。
 
 ## 📦 Skill 列表
 
-### 🖥️ 编程
+> ⭐ = 来源仓库 GitHub Star 数（实时可查）；「自研」为 buleboy 实战沉淀。
 
-| Skill | 一句话说明 | 来源 |
+### 🖥️ 编程 Coding
+
+| Skill | 说明 Description | 来源 Source |
 | --- | --- | --- |
-| [排障](./排障/) | 硬 bug 诊断：先建反馈回路再定位，二分/属性/差分等 10 种循环构建法 | mattpocock/skills（MIT） |
-| [测试驱动](./测试驱动/) | TDD 红绿循环：好的测试长什么样、测试缝、反模式 | mattpocock/skills（MIT） |
-| [React 优化](./React优化/) | React/Next.js 性能优化：40+ 条规则分 8 类（waterfall/包体积/重渲染…） | vercel-labs/agent-skills |
-| [刷题教练](./刷题教练/) | LeetCode 刷题：定制路线、逐题精讲、遗忘曲线复习 | 自研（buleboy） |
-| [页面上线](./页面上线/) | 一键部署 GitHub Pages：构建探测 + workflow + pnpm 坑 + 白屏排障 | 自研（buleboy） |
+| [diagnosing-bugs](./diagnosing-bugs/) | 硬 bug 诊断：先建反馈回路再定位，10 种循环构建法 · Hard-bug diagnosis loop | mattpocock/skills ⭐264k |
+| [tdd](./tdd/) | TDD 红绿循环：好测试标准、测试缝、反模式 · Test-driven development | mattpocock/skills ⭐264k |
+| [vercel-react-best-practices](./vercel-react-best-practices/) | React/Next.js 性能优化：40+ 规则 8 大类（waterfall/包体积/重渲染）· Performance guidelines | vercel-labs/agent-skills ⭐31k |
+| [leetcode-coach](./leetcode-coach/) | LeetCode 刷题：定制路线、逐题精讲、遗忘曲线复习 · LeetCode learning coach | 自研 buleboy |
+| [pages-deploy](./pages-deploy/) | 一键部署 GitHub Pages：构建探测 + workflow + pnpm 坑 + 白屏排障 · Deploy to Pages | 自研 buleboy |
 
-### 📄 展示与内容
+### 📄 展示与内容 Showcase & Content
 
-| Skill | 一句话说明 | 来源 |
+| Skill | 说明 Description | 来源 Source |
 | --- | --- | --- |
-| [主页美化](./主页美化/) | 生成 liyupi 风格的 GitHub 个人主页 README | 自研（buleboy） |
-| [简历制作](./简历制作/) | 制作可部署的个人简历/作品集网页 | 自研（buleboy） |
-| [项目拆解](./项目拆解/) | 深度拆解开源项目，产出中文学习指南 | 自研（buleboy） |
-| [知识卡片](./知识卡片/) | 文章/本地文档 → 5~8 张知识卡片（标题/核心知识/解释/自测） | 自研（buleboy） |
-| [图表](./图表/) | 根据数据生成准确、可访问的 HTML 图表与报告 | lvy010/clouds（MIT） |
-| [人话](./人话/) | 保留事实与观点，把生硬中文改得自然易读 | lvy010/clouds（MIT） |
+| [github-profile-beautify](./github-profile-beautify/) | 生成 liyupi 风格的 GitHub 主页 README · Profile README beautifier | 自研 buleboy |
+| [portfolio-builder](./portfolio-builder/) | 个人简历/作品集网页制作 · Portfolio website builder | 自研 buleboy |
+| [project-deep-dive](./project-deep-dive/) | 深度拆解开源项目，产出中文学习指南 · Open-source project teardown | 自研 buleboy |
+| [knowledge-cards](./knowledge-cards/) | 文章/本地文档 → 5~8 张知识卡片 · Turn articles into knowledge cards | 自研 buleboy |
+| [charts](./charts/) | 根据数据生成准确、可访问的 HTML 图表与报告 · Data charts & reports | lvy010/clouds ⭐8 |
+| [prose](./prose/) | 保留事实与观点，把生硬中文改得自然易读 · Natural Chinese editing | lvy010/clouds ⭐8 |
 
-### 📄 文档处理
+### 📄 文档处理 Documents
 
-| Skill | 一句话说明 | 来源 |
+| Skill | 说明 Description | 来源 Source |
 | --- | --- | --- |
-| [文档转写](./文档转写/) | PDF/Word/Excel/PPT → 干净 Markdown，基于 MarkItDown | microsoft/markitdown（MIT） |
+| [doc-to-markdown](./doc-to-markdown/) | PDF/Word/Excel/PPT → 干净 Markdown，基于 MarkItDown · Docs to Markdown | microsoft/markitdown ⭐185k |
 
-### 🎨 UI 与输出风格
+### 🎨 UI 与输出风格 UI & Output Style
 
-| Skill | 一句话说明 | 来源 |
+| Skill | 说明 Description | 来源 Source |
 | --- | --- | --- |
-| [前端设计](./前端设计/) | 有辨识度的前端视觉设计：美学方向、字体、布局，拒绝模板感 | anthropics/skills（Apache 2.0） |
-| [直给回答](./直给回答/) | ADHD 友好输出：先给行动、编号步骤、每轮重述、抑制废话 | ayghri/i-have-adhd（MIT） |
+| [frontend-design](./frontend-design/) | 有辨识度的前端视觉设计，拒绝模板感 · Distinctive frontend design | anthropics/skills ⭐177k |
+| [i-have-adhd](./i-have-adhd/) | ADHD 友好输出：先给行动、编号步骤、抑制废话 · Action-first output | ayghri/i-have-adhd ⭐47k |
 
-### 🔒 安全
+### 🔒 安全 Security
 
-| Skill | 一句话说明 | 来源 |
+| Skill | 说明 Description | 来源 Source |
 | --- | --- | --- |
-| [安全检查](./安全检查/) | 发布前检查：Token/隐私/绝对路径/临时文件/测试垃圾，先报告不执行 Git | 自研（buleboy） |
+| [pre-publish-security-check](./pre-publish-security-check/) | 发布前检查：Token/隐私/绝对路径/临时文件，先报告不执行 Git · Pre-publish security scan | 自研 buleboy |
 
 ## 🧩 目录结构
 
 ```text
 clouds/
-├── README.md          # 本说明
-├── LICENSES.md        # 各 Skill 许可证与来源
-├── 排障/SKILL.md       # 每个中文目录 = 一个 Skill
-├── 测试驱动/SKILL.md
-├── React优化/SKILL.md + rules/（72 条规则）
-├── 刷题教练/SKILL.md
-├── 页面上线/SKILL.md
-├── 主页美化/SKILL.md
-├── 简历制作/SKILL.md
-├── 项目拆解/SKILL.md
-├── 知识卡片/SKILL.md
-├── 图表/SKILL.md
-├── 人话/SKILL.md
-├── 文档转写/SKILL.md
-├── 前端设计/SKILL.md   # 含 LICENSE.txt（Apache 2.0）
-├── 直给回答/SKILL.md
-└── 安全检查/SKILL.md
+├── README.md                  # 本说明
+├── LICENSES.md                # 各 Skill 许可证与来源
+├── diagnosing-bugs/SKILL.md    # 每个英文目录 = 一个 Skill
+├── tdd/SKILL.md + tests.md + mocking.md
+├── vercel-react-best-practices/SKILL.md + rules/（72 条规则）
+├── leetcode-coach/SKILL.md
+├── pages-deploy/SKILL.md
+├── github-profile-beautify/SKILL.md
+├── portfolio-builder/SKILL.md
+├── project-deep-dive/SKILL.md
+├── knowledge-cards/SKILL.md
+├── charts/SKILL.md
+├── prose/SKILL.md
+├── doc-to-markdown/SKILL.md
+├── frontend-design/SKILL.md    # 含 LICENSE.txt（Apache 2.0）
+├── i-have-adhd/SKILL.md
+└── pre-publish-security-check/SKILL.md
 ```
 
 ## 🛠️ Skill 规范
@@ -87,7 +89,16 @@ clouds/
 
 ## ⭐ 来源与致谢
 
-- 7 个 Skill 直接复用/基于 GitHub 高星项目：mattpocock/skills、vercel-labs/agent-skills、anthropics/skills、lvy010/clouds、ayghri/i-have-adhd、microsoft/markitdown，均保留原许可证与版权声明，详见 [LICENSES.md](./LICENSES.md)。
+| 来源仓库 | Star | 许可 | 采用 Skill |
+| --- | --- | --- | --- |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 264k | MIT | diagnosing-bugs, tdd |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 185k | MIT | doc-to-markdown（封装 CLI） |
+| [anthropics/skills](https://github.com/anthropics/skills) | 177k | Apache 2.0 | frontend-design |
+| [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 47k | MIT | i-have-adhd |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 31k | MIT（SKILL.md 标注） | vercel-react-best-practices |
+| [lvy010/clouds](https://github.com/lvy010/clouds) | 8 | MIT（各 skill 标注） | charts, prose |
+
+- 7 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
 - 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。

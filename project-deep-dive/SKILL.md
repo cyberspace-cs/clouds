@@ -1,6 +1,6 @@
 ---
 name: project-deep-dive
-description: '中文名：项目拆解。深度拆解一个开源项目，产出便于学习的中文学习指南文档，覆盖项目名片、核心创意、玩法/机制、代码架构、目录速览、技术栈、学习路线。Use when: 项目拆解、写学习指南、项目讲解、这个项目怎么学习、把项目讲清楚放仓库里方便学习、精读项目、拆解获奖项目。'
+description: '中文名：项目拆解。深度拆解一个开源项目，产出便于学习的中文学习指南文档，覆盖项目名片、核心创意、玩法/机制、代码架构、目录速览、技术栈、学习路线。English: Deep-dive any open-source project and produce a Chinese learning guide covering project card, core idea, gameplay/mechanics, code architecture, directory map, tech stack and learning path. Use when: 项目拆解、写学习指南、项目讲解、这个项目怎么学习、把项目讲清楚放仓库里方便学习、精读项目、拆解获奖项目。'
 ---
 
 # 项目拆解

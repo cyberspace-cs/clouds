@@ -1,6 +1,6 @@
 ---
 name: pages-deploy
-description: '中文名：页面上线。把本地 Web 项目部署到 GitHub Pages，含构建方式探测、GitHub Actions workflow 编写、Pages 启用、线上验证与白屏排障全流程。Use when: 页面上线、部署到 GitHub Pages、发布网页、给项目加在线访问、让仓库变成网站、pages 部署不了、构建失败 EUNSUPPORTEDPROTOCOL。'
+description: '中文名：页面上线。把本地 Web 项目部署到 GitHub Pages，含构建方式探测、GitHub Actions workflow 编写、Pages 启用、线上验证与白屏排障全流程。English: Deploy a local web project to GitHub Pages: detect build type, write GitHub Actions workflow, enable Pages, verify online, and fix white-screen issues. Use when: 页面上线、部署到 GitHub Pages、发布网页、给项目加在线访问、让仓库变成网站、pages 部署不了、构建失败 EUNSUPPORTEDPROTOCOL。'
 ---
 
 # 页面上线

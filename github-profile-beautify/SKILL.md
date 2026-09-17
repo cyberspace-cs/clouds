@@ -1,6 +1,6 @@
 ---
 name: github-profile-beautify
-description: '中文名：主页美化。把 GitHub 个人主页 README 从普通列表升级为专业开发者名片：徽章栏、定位句、置顶重点、在线作品、统计卡片，参考 liyupi（程序员鱼皮）风格。Use when: 主页美化、美化 GitHub 主页、写 profile README、参考鱼皮风格做主页、主页像 xxx 一样好看。'
+description: '中文名：主页美化。把 GitHub 个人主页 README 从普通列表升级为专业开发者名片：徽章栏、定位句、置顶重点、在线作品、统计卡片，参考 liyupi（程序员鱼皮）风格。English: Upgrade a GitHub profile README into a professional developer card: badge row, positioning line, pinned highlights, online works and stats cards, in the style of liyupi. Use when: 主页美化、美化 GitHub 主页、写 profile README、参考鱼皮风格做主页、主页像 xxx 一样好看。'
 ---
 
 # GitHub 主页美化

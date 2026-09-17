@@ -1,6 +1,6 @@
 ---
 name: portfolio-builder
-description: '中文名：简历制作。制作个人简历/作品集网页（单页 HTML 或 Vite+React 工程），面向求职与个人展示，交付可部署到 GitHub Pages 的成品。Use when: 简历制作、做个人简历网页、作品集网站、portfolio 页面、简历主页、求职主页、个人主页网站。'
+description: '中文名：简历制作。制作个人简历/作品集网页（单页 HTML 或 Vite+React 工程），面向求职与个人展示，交付可部署到 GitHub Pages 的成品。English: Build a deployable personal resume / portfolio website (single-page HTML or Vite+React), ready for GitHub Pages. Use when: 简历制作、做个人简历网页、作品集网站、portfolio 页面、简历主页、求职主页、个人主页网站。'
 ---
 
 # 简历制作

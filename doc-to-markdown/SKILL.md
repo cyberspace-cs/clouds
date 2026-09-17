@@ -1,6 +1,6 @@
 ---
 name: doc-to-markdown
-description: '中文名：文档转写。把 PDF、Word、Excel、PPT、图片等文件转成干净的 Markdown 文本，便于阅读、喂给大模型、存档或二次加工。Use when: 文档转写、PDF 转 Markdown、Word 转 Markdown、Excel 转 Markdown、PPT 转文字、把文件转成文字、处理上传的文档。'
+description: '中文名：文档转写。把 PDF、Word、Excel、PPT、图片等文件转成干净的 Markdown 文本，便于阅读、喂给大模型、存档或二次加工。English: Convert PDF, Word, Excel, PPT, images and more into clean Markdown for reading, feeding to LLMs, archiving or reprocessing. Use when: 文档转写、PDF 转 Markdown、Word 转 Markdown、Excel 转 Markdown、PPT 转文字、把文件转成文字、处理上传的文档。'
 ---
 
 # 文档转写

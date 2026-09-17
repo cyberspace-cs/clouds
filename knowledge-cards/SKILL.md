@@ -1,6 +1,6 @@
 ---
 name: knowledge-cards
-description: '中文名：知识卡片。把用户粘贴的文章或本地 Markdown/TXT 文件转换成 5~8 张知识卡片，每张卡片包含标题、核心知识、简明解释、例子或自测问题。Use when: 知识卡片、做知识卡片、整理学习笔记、文章转卡片、学习资料整理、make-knowledge-cards。'
+description: '中文名：知识卡片。把用户粘贴的文章或本地 Markdown/TXT 文件转换成 5~8 张知识卡片，每张卡片包含标题、核心知识、简明解释、例子或自测问题。English: Convert pasted articles or local Markdown/TXT files into 5-8 knowledge cards (title / core knowledge / plain explanation / example or self-test question). Use when: 知识卡片、做知识卡片、整理学习笔记、文章转卡片、学习资料整理、make-knowledge-cards。'
 ---
 
 # 知识卡片

@@ -1,6 +1,6 @@
 ---
 name: pre-publish-security-check
-description: '中文名：安全检查。在把项目推送到 GitHub / 公开发布前，检查整个项目是否存在敏感信息泄露风险：密码或 Token、个人隐私、本地绝对路径、临时文件、测试垃圾文件、不应公开的内容。Use when: 安全检查、发布前检查、推 GitHub 前检查、开源前检查、防止泄露 Token、敏感信息检查。'
+description: '中文名：安全检查。在把项目推送到 GitHub / 公开发布前，检查整个项目是否存在敏感信息泄露风险：密码或 Token、个人隐私、本地绝对路径、临时文件、测试垃圾文件、不应公开的内容。English: Scan a project for leaked secrets (tokens/passwords), private info, absolute local paths, temp files, test junk and other non-public content before publishing; report findings first, never run Git ops unprompted. Use when: 安全检查、发布前检查、推 GitHub 前检查、开源前检查、防止泄露 Token、敏感信息检查。'
 ---
 
 # 安全检查

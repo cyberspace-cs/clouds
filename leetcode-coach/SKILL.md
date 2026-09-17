@@ -1,6 +1,6 @@
 ---
 name: leetcode-coach
-description: '中文名：刷题教练。为 LeetCode / 算法刷题者制定学习路线、讲解题目思路、输出题解与复习计划。Use when: 刷题教练、帮我规划刷题路线、这道题怎么做、LeetCode 学习计划、算法面试准备、从零开始刷题、高频题整理。'
+description: '中文名：刷题教练。为 LeetCode / 算法刷题者制定学习路线、讲解题目思路、输出题解与复习计划。English: Plan LeetCode/algorithm study routes, explain problems step by step, and build spaced-repetition review plans. Use when: 刷题教练、帮我规划刷题路线、这道题怎么做、LeetCode 学习计划、算法面试准备、从零开始刷题、高频题整理。'
 ---
 
 # 刷题教练

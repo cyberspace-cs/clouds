@@ -1,30 +1,30 @@
-# LICENSES —— 各 Skill 许可证与来源
+# LICENSES — Skill Licenses & Sources
 
 本仓库 Skill 分为两类：**直接复用 GitHub 高星项目**（保留原许可证）与 **buleboy 自研**。
 
-## 许可证索引
+## 许可证索引 License Index
 
-| Skill | 许可 | 来源 |
+| Skill | 许可 License | 来源 Source |
 | --- | --- | --- |
-| 排障 | MIT | [mattpocock/skills](https://github.com/mattpocock/skills) · Copyright (c) 2026 Matt Pocock |
-| 测试驱动 | MIT | [mattpocock/skills](https://github.com/mattpocock/skills) · Copyright (c) 2026 Matt Pocock |
-| React 优化 | MIT | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · SKILL.md 标注 license: MIT |
-| 图表 | MIT | [lvy010/clouds](https://github.com/lvy010/clouds) · Copyright (c) 2026 clouds contributors |
-| 人话 | MIT | [lvy010/clouds](https://github.com/lvy010/clouds) · Copyright (c) 2026 clouds contributors |
-| 前端设计 | Apache License 2.0 | [anthropics/skills](https://github.com/anthropics/skills) · LICENSE.txt 随附于目录内 |
-| 直给回答 | MIT | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) · LICENSE 见上游仓库 |
-| 文档转写 | MIT（工具） | 封装 [microsoft/markitdown](https://github.com/microsoft/markitdown) CLI |
-| 刷题教练 | MIT | buleboy 自研 |
-| 页面上线 | MIT | buleboy 自研 |
-| 主页美化 | MIT | buleboy 自研 |
-| 简历制作 | MIT | buleboy 自研 |
-| 项目拆解 | MIT | buleboy 自研 |
-| 知识卡片 | MIT | buleboy 自研 |
-| 安全检查 | MIT | buleboy 自研 |
+| diagnosing-bugs | MIT | [mattpocock/skills](https://github.com/mattpocock/skills) ⭐264k · Copyright (c) 2026 Matt Pocock |
+| tdd | MIT | [mattpocock/skills](https://github.com/mattpocock/skills) ⭐264k · Copyright (c) 2026 Matt Pocock |
+| vercel-react-best-practices | MIT | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) ⭐31k · SKILL.md 标注 license: MIT |
+| charts | MIT | [lvy010/clouds](https://github.com/lvy010/clouds) ⭐8 · Copyright (c) 2026 clouds contributors |
+| prose | MIT | [lvy010/clouds](https://github.com/lvy010/clouds) ⭐8 · Copyright (c) 2026 clouds contributors |
+| frontend-design | Apache License 2.0 | [anthropics/skills](https://github.com/anthropics/skills) ⭐177k · LICENSE.txt 随附于目录内 |
+| i-have-adhd | MIT | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) ⭐47k · LICENSE 见上游仓库 |
+| doc-to-markdown | MIT（工具 Tool） | 封装 [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐185k CLI |
+| leetcode-coach | MIT | buleboy 自研 |
+| pages-deploy | MIT | buleboy 自研 |
+| github-profile-beautify | MIT | buleboy 自研 |
+| portfolio-builder | MIT | buleboy 自研 |
+| project-deep-dive | MIT | buleboy 自研 |
+| knowledge-cards | MIT | buleboy 自研 |
+| pre-publish-security-check | MIT | buleboy 自研 |
 
 ## MIT 统一条款
 
-适用于：排障、测试驱动、React 优化、图表、人话、直给回答（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
+适用于：diagnosing-bugs、tdd、vercel-react-best-practices、charts、prose、i-have-adhd（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
 
 ```text
 MIT License
@@ -48,9 +48,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Apache License 2.0（前端设计）
+## Apache License 2.0（frontend-design）
 
-完整条款见 [前端设计/LICENSE.txt](./前端设计/LICENSE.txt)。摘要：允许自由使用、修改、分发、商用；需保留版权声明并标注修改；如分发衍生作品需提供 Apache 2.0 许可文本。
+完整条款见 [frontend-design/LICENSE.txt](./frontend-design/LICENSE.txt)。摘要：允许自由使用、修改、分发、商用；需保留版权声明并标注修改；如分发衍生作品需提供 Apache 2.0 许可文本。
 
 ## 使用约定
 
