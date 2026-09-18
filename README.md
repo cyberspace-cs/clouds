@@ -2,6 +2,8 @@
 
 > **Everything is Skill-Composable.** 常用工作流打包成可随时调用的 Skill，配合豆包工作任务模式 / AI Agent 一键安装即用。
 
+[![Skill Validation](https://github.com/cyberspace-cs/clouds/actions/workflows/skill-validation.yml/badge.svg)](https://github.com/cyberspace-cs/clouds/actions/workflows/skill-validation.yml)
+
 每个英文目录就是一个独立的 Skill（`SKILL.md` 含触发描述与完整流程），按需调用，随取随用。
 
 ## 🚀 快速开始
@@ -26,6 +28,8 @@
 | [code-simplification](./code-simplification/) | 代码简化：删冗余、降复杂度、保持行为不变 · Simplify without changing behavior | addyosmani/agent-skills ⭐96k |
 | [security-and-hardening](./security-and-hardening/) | 安全加固：审查输入/会话/第三方集成，对照 OWASP Top 10 · Harden against vulnerabilities | addyosmani/agent-skills ⭐96k |
 | [performance-optimization](./performance-optimization/) | 全栈性能优化：前后端/查询/数据库，N+1、Core Web Vitals · Optimize performance | addyosmani/agent-skills ⭐96k |
+| [incremental-implementation](./incremental-implementation/) | 增量实现：薄切片小步交付，降低大改风险 · Deliver in thin verifiable slices | addyosmani/agent-skills ⭐96k |
+| [browser-testing-with-devtools](./browser-testing-with-devtools/) | 真实浏览器测试：Chrome DevTools MCP 驱动 · Test in real browsers | addyosmani/agent-skills ⭐96k |
 | [vercel-react-best-practices](./vercel-react-best-practices/) | React/Next.js 性能优化：40+ 规则 8 大类（waterfall/包体积/重渲染）· Performance guidelines | vercel-labs/agent-skills ⭐31k |
 | [leetcode-coach](./leetcode-coach/) | LeetCode 刷题：定制路线、逐题精讲、遗忘曲线复习 · LeetCode learning coach | 自研 buleboy |
 
@@ -37,6 +41,9 @@
 | [brainstorming](./brainstorming/) | 创意先构思再动手：分类需求、设计方案、获准后才实现 · Design before implementation | obra/superpowers ⭐288k |
 | [writing-skills](./writing-skills/) | 写 Skill 的 Skill：TDD 式创作、子代理压测、验证后部署 · Create & test skills | obra/superpowers ⭐288k |
 | [planning-and-task-breakdown](./planning-and-task-breakdown/) | 任务拆解：规格 → 有序可执行任务、估算范围、并行推进 · Plan & break down tasks | addyosmani/agent-skills ⭐96k |
+| [idea-refine](./idea-refine/) | 想法打磨：发散/收敛思维把粗想法变成可执行方案 · Refine ideas into actions | addyosmani/agent-skills ⭐96k |
+| [interview-me](./interview-me/) | 需求挖掘：逐问挖出用户真正想要的，避免做错方向 · Extract real intent | addyosmani/agent-skills ⭐96k |
+| [context-engineering](./context-engineering/) | 上下文工程：优化 Agent 上下文，输出质量下降时使用 · Optimize agent context | addyosmani/agent-skills ⭐96k |
 | [spec-driven-development](./spec-driven-development/) | 规格先行：先写规格/PRD/能力地图再编码 · Spec before code | addyosmani/agent-skills ⭐96k |
 | [git-workflow-and-versioning](./git-workflow-and-versioning/) | Git 规范：原子提交、分支、冲突、PR、版本号与 CHANGELOG · Git workflow & versioning | addyosmani/agent-skills ⭐96k |
 | [documentation-and-adrs](./documentation-and-adrs/) | 架构决策记录（ADR）与文档沉淀 · Document decisions & ADRs | addyosmani/agent-skills ⭐96k |
@@ -89,11 +96,16 @@ clouds/
 ├── code-simplification/SKILL.md
 ├── security-and-hardening/SKILL.md
 ├── performance-optimization/SKILL.md
+├── incremental-implementation/SKILL.md
+├── browser-testing-with-devtools/SKILL.md
 ├── vercel-react-best-practices/SKILL.md + rules/（72 条规则）
 ├── verification-before-completion/SKILL.md
 ├── brainstorming/SKILL.md
 ├── writing-skills/SKILL.md + examples/ + references/
 ├── planning-and-task-breakdown/SKILL.md
+├── idea-refine/SKILL.md + examples.md + frameworks.md + refinement-criteria.md + scripts/
+├── interview-me/SKILL.md
+├── context-engineering/SKILL.md
 ├── spec-driven-development/SKILL.md
 ├── git-workflow-and-versioning/SKILL.md
 ├── documentation-and-adrs/SKILL.md
@@ -140,14 +152,14 @@ clouds/
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 264k | MIT | diagnosing-bugs, tdd |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 185k | MIT | doc-to-markdown（封装 CLI） |
 | [anthropics/skills](https://github.com/anthropics/skills) | 177k | Apache 2.0 | frontend-design |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 96k | MIT | code-review-and-quality, code-simplification, security-and-hardening, performance-optimization, git-workflow-and-versioning, documentation-and-adrs, planning-and-task-breakdown, spec-driven-development, ci-cd-and-automation, observability-and-instrumentation |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 96k | MIT | **25 个全收录**：code-review-and-quality, code-simplification, security-and-hardening, performance-optimization, incremental-implementation, browser-testing-with-devtools, planning-and-task-breakdown, idea-refine, interview-me, context-engineering, spec-driven-development, git-workflow-and-versioning, documentation-and-adrs, ci-cd-and-automation, observability-and-instrumentation 等 |
 | [blader/humanizer](https://github.com/blader/humanizer) | 49k | MIT | humanizer |
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 47k | MIT | i-have-adhd |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 31k | MIT（SKILL.md 标注） | vercel-react-best-practices |
 | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | 10k | MIT | no-ai-slop |
 | [lvy010/clouds](https://github.com/lvy010/clouds) | 8 | MIT（各 skill 标注） | charts, prose |
 
-- 21 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
+- 26 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
 - 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。
