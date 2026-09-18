@@ -36,8 +36,12 @@
 | [verification-before-completion](./verification-before-completion/) | 完成前验证：无新鲜验证证据不得声称完成 · Evidence before claims | obra/superpowers ⭐288k |
 | [brainstorming](./brainstorming/) | 创意先构思再动手：分类需求、设计方案、获准后才实现 · Design before implementation | obra/superpowers ⭐288k |
 | [writing-skills](./writing-skills/) | 写 Skill 的 Skill：TDD 式创作、子代理压测、验证后部署 · Create & test skills | obra/superpowers ⭐288k |
+| [planning-and-task-breakdown](./planning-and-task-breakdown/) | 任务拆解：规格 → 有序可执行任务、估算范围、并行推进 · Plan & break down tasks | addyosmani/agent-skills ⭐96k |
+| [spec-driven-development](./spec-driven-development/) | 规格先行：先写规格/PRD/能力地图再编码 · Spec before code | addyosmani/agent-skills ⭐96k |
 | [git-workflow-and-versioning](./git-workflow-and-versioning/) | Git 规范：原子提交、分支、冲突、PR、版本号与 CHANGELOG · Git workflow & versioning | addyosmani/agent-skills ⭐96k |
 | [documentation-and-adrs](./documentation-and-adrs/) | 架构决策记录（ADR）与文档沉淀 · Document decisions & ADRs | addyosmani/agent-skills ⭐96k |
+| [ci-cd-and-automation](./ci-cd-and-automation/) | CI/CD 自动化：流水线、质量门、测试运行器、部署策略 · Automate CI/CD | addyosmani/agent-skills ⭐96k |
+| [observability-and-instrumentation](./observability-and-instrumentation/) | 可观测性：日志/指标/追踪/告警，生产可诊断 · Observability & instrumentation | addyosmani/agent-skills ⭐96k |
 | [pages-deploy](./pages-deploy/) | 一键部署 GitHub Pages：构建探测 + workflow + pnpm 坑 + 白屏排障 · Deploy to Pages | 自研 buleboy |
 
 ### 📄 展示与内容 Showcase & Content
@@ -89,8 +93,12 @@ clouds/
 ├── verification-before-completion/SKILL.md
 ├── brainstorming/SKILL.md
 ├── writing-skills/SKILL.md + examples/ + references/
+├── planning-and-task-breakdown/SKILL.md
+├── spec-driven-development/SKILL.md
 ├── git-workflow-and-versioning/SKILL.md
 ├── documentation-and-adrs/SKILL.md
+├── ci-cd-and-automation/SKILL.md
+├── observability-and-instrumentation/SKILL.md
 ├── leetcode-coach/SKILL.md
 ├── pages-deploy/SKILL.md
 ├── github-profile-beautify/SKILL.md
@@ -115,6 +123,15 @@ clouds/
 - 可选 `scripts/`（可执行脚本）、`references/`（参考文档）、`assets/`（模板资产）
 - 描述清晰，Agent 读到描述即可判断何时调用
 
+## ✅ CI 自动校验
+
+仓库内置 GitHub Actions（`.github/workflows/skill-validation.yml`），每次 push/PR 自动校验所有 Skill：
+
+- `SKILL.md` 存在且含合法 YAML frontmatter
+- frontmatter 仅允许 `name / description / license / allowed-tools / metadata`
+- `name` 必须与目录名一致
+- 任一 Skill 不合规则 CI 失败（质量门）
+
 ## ⭐ 来源与致谢
 
 | 来源仓库 | Star | 许可 | 采用 Skill |
@@ -123,14 +140,14 @@ clouds/
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 264k | MIT | diagnosing-bugs, tdd |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 185k | MIT | doc-to-markdown（封装 CLI） |
 | [anthropics/skills](https://github.com/anthropics/skills) | 177k | Apache 2.0 | frontend-design |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 96k | MIT | code-review-and-quality, code-simplification, security-and-hardening, performance-optimization, git-workflow-and-versioning, documentation-and-adrs |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 96k | MIT | code-review-and-quality, code-simplification, security-and-hardening, performance-optimization, git-workflow-and-versioning, documentation-and-adrs, planning-and-task-breakdown, spec-driven-development, ci-cd-and-automation, observability-and-instrumentation |
 | [blader/humanizer](https://github.com/blader/humanizer) | 49k | MIT | humanizer |
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 47k | MIT | i-have-adhd |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 31k | MIT（SKILL.md 标注） | vercel-react-best-practices |
 | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | 10k | MIT | no-ai-slop |
 | [lvy010/clouds](https://github.com/lvy010/clouds) | 8 | MIT（各 skill 标注） | charts, prose |
 
-- 17 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
+- 21 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
 - 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。
