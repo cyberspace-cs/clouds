@@ -27,6 +27,7 @@ Treat every competition as a validation problem first and a modeling problem sec
 
 ## Resource Map
 
+- **中文快速上手：读 `kaggle-competition-guide.zh-CN.md`**（Kaggle 打比赛完整攻略：比赛类型、新手路线、CV 方法论、特征工程、模型融合、Code Competition 专项、提交纪律）。
 - Read `references/method-map.md` for the neutral workflow map behind the skill.
 - Read `references/information-sharing-policy.md` before publishing competition code, notebooks, datasets, models, artifacts, or reports outside the active team or workspace.
 - Read `references/competition-intel.md` when a Kaggle competition slug, URL, title, public leaderboard context, open solutions, or discussion activity may inform the approach.
