@@ -68,6 +68,12 @@
 | --- | --- | --- |
 | [doc-to-markdown](./doc-to-markdown/) | PDF/Word/Excel/PPT → 干净 Markdown，基于 MarkItDown · Docs to Markdown | microsoft/markitdown ⭐185k |
 
+### 🤖 数据科学 Data Science
+
+| Skill | 说明 Description | 来源 Source |
+| --- | --- | --- |
+| [agentic-kaggle-skill](./agentic-kaggle-skill/) | Kaggle 竞赛全流程：代码竞赛/验证指标/建模调参/集成/多 Notebook 架构/隐藏测试调试 · Agent-driven Kaggle competition | FrankS-IntelLab/agentic-kaggle-skill ⭐184 |
+
 ### 🎨 UI 与输出风格 UI & Output Style
 
 | Skill | 说明 Description | 来源 Source |
@@ -124,6 +130,7 @@ clouds/
 ├── i-have-adhd/SKILL.md
 ├── humanizer/SKILL.md + LICENSE
 ├── no-ai-slop/SKILL.md
+├── agentic-kaggle-skill/SKILL.md + agents/ + examples/ + references/（含 research/ 8 篇）+ scripts/（4 个）
 └── pre-publish-security-check/SKILL.md
 ```
 
@@ -157,9 +164,10 @@ clouds/
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 47k | MIT | i-have-adhd |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 31k | MIT（SKILL.md 标注） | vercel-react-best-practices |
 | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | 10k | MIT | no-ai-slop |
+| [FrankS-IntelLab/agentic-kaggle-skill](https://github.com/FrankS-IntelLab/agentic-kaggle-skill) | 184 | MIT | agentic-kaggle-skill（完整 31 文件） |
 | [lvy010/clouds](https://github.com/lvy010/clouds) | 8 | MIT（各 skill 标注） | charts, prose |
 
-- 26 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
+- 27 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
 - 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。

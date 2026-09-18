@@ -33,6 +33,7 @@
 | verification-before-completion | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
 | brainstorming | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
 | writing-skills | MIT | [obra/superpowers](https://github.com/obra/superpowers) ⭐288k · Copyright (c) 2025 Jesse Vincent |
+| agentic-kaggle-skill | MIT | [FrankS-IntelLab/agentic-kaggle-skill](https://github.com/FrankS-IntelLab/agentic-kaggle-skill) ⭐184 · LICENSE 随附于目录内 |
 | doc-to-markdown | MIT（工具 Tool） | 封装 [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐185k CLI |
 | leetcode-coach | MIT | buleboy 自研 |
 | pages-deploy | MIT | buleboy 自研 |
@@ -44,7 +45,7 @@
 
 ## MIT 统一条款
 
-适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、security-and-hardening、performance-optimization、git-workflow-and-versioning、documentation-and-adrs、planning-and-task-breakdown、incremental-implementation、browser-testing-with-devtools、idea-refine、interview-me、context-engineering、spec-driven-development、ci-cd-and-automation、observability-and-instrumentation、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer、no-ai-slop、verification-before-completion、brainstorming、writing-skills（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
+适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、security-and-hardening、performance-optimization、git-workflow-and-versioning、documentation-and-adrs、planning-and-task-breakdown、incremental-implementation、browser-testing-with-devtools、idea-refine、interview-me、context-engineering、spec-driven-development、ci-cd-and-automation、observability-and-instrumentation、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer、no-ai-slop、verification-before-completion、brainstorming、writing-skills、agentic-kaggle-skill（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。
 
 ```text
 MIT License
