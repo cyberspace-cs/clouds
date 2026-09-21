@@ -1,0 +1,15 @@
+{
+  "name": "frontend-slides",
+  "displayName": "前端幻灯片 演示文稿 网页制作",
+  "encoding_fallback": [
+    "utf-8",
+    "gbk",
+    "gb18030"
+  ],
+  "features": [
+    "cli",
+    "selftest",
+    "dry-run",
+    "error-handling"
+  ]
+}
