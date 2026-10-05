@@ -43,6 +43,28 @@
 | knowledge-cards | MIT | buleboy 自研 |
 | pre-publish-security-check | MIT | buleboy 自研 |
 
+## research/ 子目录（第三方科研 Skills，非顶层）
+
+> ⚠️ 以下 Skill 位于 `research/` 子目录，从 3 个公开仓库聚合，**含非商业（NonCommercial）许可**，仅限个人非商用；与仓库其余 MIT 技能不同，请勿商用。
+
+| Skill | 许可 License | 来源 Source |
+| --- | --- | --- |
+| nature-academic-search | 未声明（上游无 LICENSE） | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| nature-reader | 未声明 | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| nature-paper-card | 未声明 | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| nature-proposal-writer | 未声明 | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| nature-figure | 未声明 | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| nature-ref-verifier | 未声明 | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| nature-response | 未声明 | [Hanny126/nature-skills](https://github.com/Hanny126/nature-skills) |
+| idea-evaluator | CC BY-NC-SA 4.0 | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) |
+| figure-designer | CC BY-NC-SA 4.0 | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) |
+| paper-writer | CC BY-NC-SA 4.0 | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) |
+| pre-submission-reviewer | CC BY-NC-SA 4.0 | [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) |
+| academic-pipeline | CC BY-NC 4.0 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
+| academic-paper | CC BY-NC 4.0 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |
+
+> 注：nature-skills 上游仓库未提供 LICENSE 文件，版权归属与许可状态不明，使用需自行评估风险；supervisor-skills / academic-research-skills 的 LICENSE 全文已随目录保存在 `research/<仓库名>/LICENSE`。
+
 ## MIT 统一条款
 
 适用于：diagnosing-bugs、tdd、code-review-and-quality、code-simplification、security-and-hardening、performance-optimization、git-workflow-and-versioning、documentation-and-adrs、planning-and-task-breakdown、incremental-implementation、browser-testing-with-devtools、idea-refine、interview-me、context-engineering、spec-driven-development、ci-cd-and-automation、observability-and-instrumentation、vercel-react-best-practices、charts、prose、i-have-adhd、humanizer、no-ai-slop、verification-before-completion、brainstorming、writing-skills、agentic-kaggle-skill（以上保留各来源 MIT 许可与版权声明），以及全部自研 Skill。

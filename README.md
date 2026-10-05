@@ -78,7 +78,7 @@
 
 | Skill | 说明 Description | 来源 Source |
 | --- | --- | --- |
-| [research-skills-map](./research-skills-map/) | 科研类 Skill 分类地图：按 7 大环节 + 来源仓库双维归类，速查该用哪个科研 Skill · Research skills classification map | 自研 buleboy（整理自《GPT-6 Astra skills 汇总》） |
+| [research-skills-map](./research-skills-map/) | 科研类 Skill 分类地图：按 7 大环节 + 来源仓库双维归类，速查该用哪个科研 Skill · Research skills classification map | 自研 buleboy（整理自《GPT-6 Astra skills 汇总》）；**实际 Skill 文件见 [`research/`](./research/) 子目录** |
 
 ### 🎨 UI 与输出风格 UI & Output Style
 

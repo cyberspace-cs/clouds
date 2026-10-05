@@ -8,6 +8,8 @@ license: MIT
 
 一份把**科研全流程 Skills** 按「环节」与「来源仓库」双维度归类的速查地图，覆盖从选题到投稿的完整闭环。配套可视化报告见同目录 `科研Skills分类调研.html`。
 
+> 实际 Skill 文件已下载至本仓库 `research/` 子目录（来自 3 个公开仓库，保留原始结构与许可证），详见 [`research/README.md`](../research/README.md)。
+
 ## 何时用这个 Skill
 
 - 用户问"有哪些科研类 Skill""科研流程用什么工具"
