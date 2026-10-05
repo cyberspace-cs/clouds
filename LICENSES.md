@@ -95,6 +95,15 @@ SOFTWARE.
 
 完整条款见 [frontend-design/LICENSE.txt](./frontend-design/LICENSE.txt)。摘要：允许自由使用、修改、分发、商用；需保留版权声明并标注修改；如分发衍生作品需提供 Apache 2.0 许可文本。
 
+## WorkBuddy 内置技能（顶层，本次新增）
+
+> 这两个 Skill 来自本地 WorkBuddy 安装目录（`~/.workbuddy/skills/`），非上述第三方 GitHub 仓库。已按"原样直接提交"完整保留所有文件（含 demo/素材 PNG）。注意：仓库内现已存在**两个** `nature-figure` —— 本顶层版本（WorkBuddy 内置，35MB）与 `research/nature-skills/nature-figure`（Hanny126 来源，另一版本），二者来源不同、路径不同，已分别标注。
+
+| Skill | 许可 License | 来源 Source |
+| --- | --- | --- |
+| nature-figure | 未声明（WorkBuddy 内置技能，目录内无 LICENSE，许可状态不明） | 本地 WorkBuddy 内置 |
+| drawio-reconstruction | MIT（Copyright (c) 2026 VCG-Bench Authors，LICENSE 随附目录内） | 本地 WorkBuddy 内置 |
+
 ## 使用约定
 
 - 复用 Skill 的 `SKILL.md` 保留上游 frontmatter 与正文，未改变其功能语义。
