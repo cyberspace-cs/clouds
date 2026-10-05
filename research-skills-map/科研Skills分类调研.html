@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科研 Skills 分类调研报告</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#161d2e; --panel2:#1d2740; --line:#2a3550;
+    --text:#e6ecf5; --muted:#9aa7c2; --accent:#5b8def; --accent2:#36c6a0;
+    --c1:#ff7a7a; --c2:#ffb454; --c3:#ffe14d; --c4:#5bd6a0; --c5:#5b9bff; --c6:#b18bff; --c7:#ff8bd0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6;padding:32px 20px 60px}
+  .wrap{max-width:1080px;margin:0 auto}
+  header{text-align:center;margin-bottom:36px}
+  header h1{font-size:30px;font-weight:700;letter-spacing:.5px}
+  header .sub{color:var(--muted);font-size:14px;margin-top:8px}
+  .stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:26px 0 40px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 22px;min-width:120px;text-align:center}
+  .stat .n{font-size:28px;font-weight:700;color:var(--accent)}
+  .stat .l{font-size:13px;color:var(--muted);margin-top:4px}
+  h2{font-size:20px;margin:38px 0 18px;padding-left:12px;border-left:4px solid var(--accent)}
+  h2 .hint{font-size:13px;color:var(--muted);font-weight:400;margin-left:8px}
+  .stage{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:16px}
+  .stage-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .badge{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#0f1420}
+  .stage-head .t{font-size:17px;font-weight:600}
+  .stage-head .d{font-size:13px;color:var(--muted);margin-left:auto;text-align:right;max-width:60%}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+  .card{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card .name{font-weight:600;font-size:15px;color:var(--text)}
+  .card .src{display:inline-block;font-size:11px;color:var(--muted);background:#0f1420;border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin:6px 0}
+  .card .desc{font-size:13px;color:var(--muted);margin-top:4px}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+  .srcbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+  .srcbox h3{font-size:15px;margin-bottom:8px;color:var(--accent2)}
+  .srcbox ul{list-style:none}
+  .srcbox li{font-size:13px;color:var(--muted);padding:3px 0;border-bottom:1px dashed var(--line)}
+  .srcbox li .tag{color:var(--text);font-weight:600}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border-radius:12px;overflow:hidden;font-size:13px;margin-top:6px}
+  th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--panel2);color:var(--accent);font-weight:600}
+  td .pill{display:inline-block;padding:1px 9px;border-radius:6px;font-size:11px;background:#0f1420;border:1px solid var(--line);color:var(--muted)}
+  tr:hover td{background:var(--panel2)}
+  .note{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--c2);border-radius:10px;padding:16px 18px;font-size:13px;color:var(--muted);margin-top:30px}
+  .note b{color:var(--text)}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>科研 Skills 分类调研报告</h1>
+    <div class="sub">来源链接：微信公众平台《告别科研内耗！GPT-6 Astra skills 汇总带你跑通科研全流程》（2026-10-05）</div>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><div class="n">1</div><div class="l">调研链接</div></div>
+    <div class="stat"><div class="n">18</div><div class="l">科研 Skills</div></div>
+    <div class="stat"><div class="n">7</div><div class="l">科研环节</div></div>
+    <div class="stat"><div class="n">5</div><div class="l">来源仓库</div></div>
+  </div>
+
+  <h2>一、按科研环节分类 <span class="hint">（主分类 · 覆盖完整科研闭环）</span></h2>
+
+  <!-- 1 选题 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c1)">1</div>
+      <div class="t">选题阶段</div>
+      <div class="d">从模糊想法→清晰研究方向</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">Supervisor Deep Research</div><span class="src">来源：文中未标注</span><div class="desc">已有初步方向时，系统梳理现状、找到切入点</div></div>
+      <div class="card"><div class="name">Socratic Deep Research</div><span class="src">来源：文中未标注</span><div class="desc">苏格拉底式提问，从模糊想法逐步澄清研究问题</div></div>
+    </div>
+  </div>
+
+  <!-- 2 Idea验证 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c2)">2</div>
+      <div class="t">Idea 验证</div>
+      <div class="d">快速评估研究想法可行性</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">Idea Evaluator</div><span class="src">来源：Supervisor-Skills</span><div class="desc">快速对比多方案、给优劣势分析，适合时间紧张</div></div>
+      <div class="card"><div class="name">ResearchStudio-Idea</div><span class="src">来源：ResearchStudio</span><div class="desc">基于文献证据深度验证，流程更严谨</div></div>
+    </div>
+  </div>
+
+  <!-- 3 文献 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c3)">3</div>
+      <div class="t">文献检索与精读</div>
+      <div class="d">批量找文献 + 逐篇深度理解</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">USTC Academic-Search</div><span class="src">来源：USTC</span><div class="desc">批量整理文献，建立初步文献库</div></div>
+      <div class="card"><div class="name">Nature Academic Search</div><span class="src">来源：Nature Skills</span><div class="desc">追踪高影响力论文的引用网络</div></div>
+      <div class="card"><div class="name">Nature Reader</div><span class="src">来源：Nature Skills</span><div class="desc">侧重上下文理解，精读需深入背景的论文</div></div>
+      <div class="card"><div class="name">Nature Paper Card</div><span class="src">来源：Nature Skills</span><div class="desc">固定模板提炼关键信息，建文献数据库</div></div>
+    </div>
+  </div>
+
+  <!-- 4 实验设计 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c4)">4</div>
+      <div class="t">实验设计</div>
+      <div class="d">从想法→可执行方案/流程管理</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">Nature Proposal Writer</div><span class="src">来源：Nature Skills</span><div class="desc">完整研究计划撰写，适合基金申请、开题</div></div>
+      <div class="card"><div class="name">Academic Pipeline</div><span class="src">来源：Academic Research Skills</span><div class="desc">论文主产流程管理，跟踪进度、管理数据</div></div>
+    </div>
+  </div>
+
+  <!-- 5 绘图 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c5)">5</div>
+      <div class="t">科研绘图</div>
+      <div class="d">出图 / 叙事规划 / 流程图</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">Nature Figure</div><span class="src">来源：Nature Skills</span><div class="desc">直接生成符合 Nature 标准的科研配图</div></div>
+      <div class="card"><div class="name">Figure Designer</div><span class="src">来源：Supervisor-Skills</span><div class="desc">专注配图叙事设计与美学优化</div></div>
+      <div class="card"><div class="name">Draw.io 流程</div><span class="src">来源：通用工具</span><div class="desc">绘制可编辑的纯结构流程图</div></div>
+    </div>
+  </div>
+
+  <!-- 6 写作 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c6)">6</div>
+      <div class="t">论文写作</div>
+      <div class="d">从草稿→完整稿件</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">Paper Writer</div><span class="src">来源：Supervisor-Skills</span><div class="desc">单章节草稿快速起稿</div></div>
+      <div class="card"><div class="name">Academic Paper</div><span class="src">来源：Academic Research Skills</span><div class="desc">管理完整论文结构与整篇逻辑</div></div>
+    </div>
+  </div>
+
+  <!-- 7 投稿 -->
+  <div class="stage">
+    <div class="stage-head">
+      <div class="badge" style="background:var(--c7)">7</div>
+      <div class="t">投稿返修</div>
+      <div class="d">检查引用 / 模拟审稿 / 生成回复</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="name">Ref Verifier</div><span class="src">来源：Nature Skills</span><div class="desc">投稿前检查引用格式与完整性</div></div>
+      <div class="card"><div class="name">Pre-Submission Reviewer</div><span class="src">来源：Supervisor-Skills</span><div class="desc">模拟审稿人视角，提前发现问题</div></div>
+      <div class="card"><div class="name">Nature Response</div><span class="src">来源：Nature Skills</span><div class="desc">生成专业的审稿意见回复</div></div>
+    </div>
+  </div>
+
+  <h2>二、按来源仓库分类 <span class="hint">（第二维 · 看清技能"血统"）</span></h2>
+  <div class="grid2">
+    <div class="srcbox">
+      <h3>Nature Skills（7 个）</h3>
+      <ul>
+        <li><span class="tag">Nature Academic Search</span> · 文献检索</li>
+        <li><span class="tag">Nature Reader</span> · 文献精读</li>
+        <li><span class="tag">Nature Paper Card</span> · 文献卡片</li>
+        <li><span class="tag">Nature Proposal Writer</span> · 实验设计</li>
+        <li><span class="tag">Nature Figure</span> · 科研绘图</li>
+        <li><span class="tag">Ref Verifier</span> · 投稿前检查</li>
+        <li><span class="tag">Nature Response</span> · 审稿回复</li>
+      </ul>
+    </div>
+    <div class="srcbox">
+      <h3>Supervisor-Skills（4 个）</h3>
+      <ul>
+        <li><span class="tag">Idea Evaluator</span> · 想法评估</li>
+        <li><span class="tag">Figure Designer</span> · 配图设计</li>
+        <li><span class="tag">Paper Writer</span> · 章节起稿</li>
+        <li><span class="tag">Pre-Submission Reviewer</span> · 模拟审稿</li>
+      </ul>
+    </div>
+    <div class="srcbox">
+      <h3>Academic Research Skills（2 个）</h3>
+      <ul>
+        <li><span class="tag">Academic Pipeline</span> · 流程管理</li>
+        <li><span class="tag">Academic Paper</span> · 全文整合</li>
+      </ul>
+    </div>
+    <div class="srcbox">
+      <h3>其他 / 未明确来源（5 个）</h3>
+      <ul>
+        <li><span class="tag">Supervisor Deep Research</span> · 选题调研</li>
+        <li><span class="tag">Socratic Deep Research</span> · 选题提问</li>
+        <li><span class="tag">ResearchStudio-Idea</span> · 想法验证</li>
+        <li><span class="tag">USTC Academic-Search</span> · 文献检索</li>
+        <li><span class="tag">Draw.io 流程</span> · 流程图</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>三、完整对照表</h2>
+  <table>
+    <thead><tr><th>#</th><th>Skill 名称</th><th>所属环节</th><th>核心功能</th><th>来源</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Supervisor Deep Research</td><td><span class="pill">选题</span></td><td>系统梳理现状、找切入点</td><td>未标注</td></tr>
+      <tr><td>2</td><td>Socratic Deep Research</td><td><span class="pill">选题</span></td><td>苏格拉底式提问澄清问题</td><td>未标注</td></tr>
+      <tr><td>3</td><td>Idea Evaluator</td><td><span class="pill">Idea验证</span></td><td>多方案对比与优劣势分析</td><td>Supervisor-Skills</td></tr>
+      <tr><td>4</td><td>ResearchStudio-Idea</td><td><span class="pill">Idea验证</span></td><td>基于文献证据深度验证</td><td>ResearchStudio</td></tr>
+      <tr><td>5</td><td>USTC Academic-Search</td><td><span class="pill">文献检索</span></td><td>批量整理文献、建库</td><td>USTC</td></tr>
+      <tr><td>6</td><td>Nature Academic Search</td><td><span class="pill">文献检索</span></td><td>追踪高影响力引用网络</td><td>Nature Skills</td></tr>
+      <tr><td>7</td><td>Nature Reader</td><td><span class="pill">文献精读</span></td><td>上下文深度精读</td><td>Nature Skills</td></tr>
+      <tr><td>8</td><td>Nature Paper Card</td><td><span class="pill">文献精读</span></td><td>模板化提炼建库</td><td>Nature Skills</td></tr>
+      <tr><td>9</td><td>Nature Proposal Writer</td><td><span class="pill">实验设计</span></td><td>完整研究计划撰写</td><td>Nature Skills</td></tr>
+      <tr><td>10</td><td>Academic Pipeline</td><td><span class="pill">实验设计</span></td><td>进度跟踪与数据管理</td><td>Academic Research Skills</td></tr>
+      <tr><td>11</td><td>Nature Figure</td><td><span class="pill">科研绘图</span></td><td>生成 Nature 标准配图</td><td>Nature Skills</td></tr>
+      <tr><td>12</td><td>Figure Designer</td><td><span class="pill">科研绘图</span></td><td>叙事设计与美学优化</td><td>Supervisor-Skills</td></tr>
+      <tr><td>13</td><td>Draw.io 流程</td><td><span class="pill">科研绘图</span></td><td>可编辑结构流程图</td><td>通用工具</td></tr>
+      <tr><td>14</td><td>Paper Writer</td><td><span class="pill">论文写作</span></td><td>单章节草稿起稿</td><td>Supervisor-Skills</td></tr>
+      <tr><td>15</td><td>Academic Paper</td><td><span class="pill">论文写作</span></td><td>全文结构与逻辑整合</td><td>Academic Research Skills</td></tr>
+      <tr><td>16</td><td>Ref Verifier</td><td><span class="pill">投稿返修</span></td><td>引用格式与完整性检查</td><td>Nature Skills</td></tr>
+      <tr><td>17</td><td>Pre-Submission Reviewer</td><td><span class="pill">投稿返修</span></td><td>模拟审稿人自查</td><td>Supervisor-Skills</td></tr>
+      <tr><td>18</td><td>Nature Response</td><td><span class="pill">投稿返修</span></td><td>审稿意见专业回复</td><td>Nature Skills</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <b>调研说明：</b>
+    <ul style="list-style:disc;padding-left:20px;margin-top:8px">
+      <li>本报告基于你提供的 <b>1 个链接</b> 提取整理。原文提到的"GPT-6 Astra"为推文宣传口径，文中技能实际来自 <b>Nature Skills / Supervisor-Skills / Academic Research Skills / USTC / ResearchStudio</b> 等多个公开技能仓库。</li>
+      <li>"科研领域"此处按<b>科研流程环节</b>划分（选题→验证→文献→实验→绘图→写作→投稿），这是该文自身的分类逻辑；文章并未按学科（如生物/物理/计算机）细分，技能多为<b>通用科研方法学</b>工具，可跨学科使用。</li>
+      <li>部分技能（如 Supervisor/Socratic Deep Research、Draw.io 流程）原文未标注具体仓库，已在"未明确来源"中单列。</li>
+      <li>若你还有其他链接需要并入分类，直接贴出来，我可以合并成一份更大的总表。</li>
+    </ul>
+  </div>
+
+  <footer>科研 Skills 分类调研 · 由 WorkBuddy 生成 · 2026-10-05</footer>
+</div>
+</body>
+</html>

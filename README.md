@@ -74,6 +74,12 @@
 | --- | --- | --- |
 | [agentic-kaggle-skill](./agentic-kaggle-skill/) | Kaggle 竞赛全流程：代码竞赛/验证指标/建模调参/集成/多 Notebook 架构/隐藏测试调试 · Agent-driven Kaggle competition | FrankS-IntelLab/agentic-kaggle-skill ⭐184 |
 
+### 📚 科研 Research
+
+| Skill | 说明 Description | 来源 Source |
+| --- | --- | --- |
+| [research-skills-map](./research-skills-map/) | 科研类 Skill 分类地图：按 7 大环节 + 来源仓库双维归类，速查该用哪个科研 Skill · Research skills classification map | 自研 buleboy（整理自《GPT-6 Astra skills 汇总》） |
+
 ### 🎨 UI 与输出风格 UI & Output Style
 
 | Skill | 说明 Description | 来源 Source |
@@ -131,6 +137,7 @@ clouds/
 ├── humanizer/SKILL.md + LICENSE
 ├── no-ai-slop/SKILL.md
 ├── agentic-kaggle-skill/SKILL.md + agents/ + examples/ + references/（含 research/ 8 篇）+ scripts/（4 个）
+├── research-skills-map/SKILL.md + 科研Skills分类调研.html
 └── pre-publish-security-check/SKILL.md
 ```
 
@@ -168,6 +175,6 @@ clouds/
 | [lvy010/clouds](https://github.com/lvy010/clouds) | 8 | MIT（各 skill 标注） | charts, prose |
 
 - 27 个 Skill 直接复用/基于高星项目（保留原许可证与版权声明），详见 [LICENSES.md](./LICENSES.md)。
-- 8 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写）。
+- 9 个 Skill 为 buleboy 实战沉淀（GitHub 主页整理、Pages 部署、ShiftX 拆解、刷题平台、简历网页、知识卡片、安全检查、文档转写、科研技能地图）。
 
 欢迎 Star ⭐、Fork、提 Issue 共建你的专属 Skill。
